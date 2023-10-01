@@ -1,0 +1,106 @@
+.header
+{
+    width: 451px;
+    height: 391px;
+    border-radius: 451px;
+    background: rebeccapurple;
+    filter: blur(212px);
+    -webkit-filter: blur(212px);
+    z-index: 1;
+    position: absolute;
+    left: -5px;
+    top: 8px;
+    
+}
+.head
+{
+    margin-top: 60px;
+    min-width: 1408px;
+    height: 92px; 
+    margin-left: 160px;
+}
+.content
+{
+    display: flex;
+    gap: 32px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 309px;
+    height: 30px;
+    
+}
+.active
+{
+    
+    width: 43px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(189, 0, 255, 0.00) 0%, rgba(189, 0, 255, 0.40) 48.78%, rgba(189, 0, 255, 0.01) 99.99%, rgba(189, 0, 255, 0.00) 100%);
+    position: absolute;
+    top: 89px;
+}
+.name
+{
+    width: 98px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    width: 98px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 207px;
+    text-align: center;
+}
+.holo
+{
+    color: #3DDEED;
+}
+.goza
+{
+    color: #FFFFFF;
+}
+.dot
+{
+    width: 4px;
+    height: 4px;
+    margin-top: 19px;
+    margin-left: 2px;
+    background-color: #3DDEED;
+}
+.search
+{
+    display: flex;
+    width: 336px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.search input
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.search input::placeholder
+{
+    color: #7B678A;
+}
+.s-icon
+{
+    color: #BEAFC3;
+   
+}
+.bag
+{
+    width: 22px;
+    height: 22px;
+    margin-left: -125px;
+    margin-top: 11px;
+    color: #BEAFC3;
+}
